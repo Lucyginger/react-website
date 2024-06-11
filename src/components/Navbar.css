@@ -1,6 +1,6 @@
 .navbar {
     /* background-color: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
-    background-color:black ;
+    background-color:rgba(0,0,0,0.5);
     height: 90px;
     display: flex;
     justify-content: center;
@@ -28,6 +28,10 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+}
+
+.logo img {
+    width: 70px;
 }
 
 .faEnvelope {

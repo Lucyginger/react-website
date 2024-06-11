@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Link } from "react-router-dom";
 import './Navbar.css';
 import {Button} from './Button';
+import logo from '../logo/surefast logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
@@ -31,7 +32,8 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo'>
-                        <i className='faEnvelope'>Hello <FontAwesomeIcon icon={faEnvelope} /></i>
+                        {/* <i className='faEnvelope'>Hello <FontAwesomeIcon icon={faEnvelope} /></i> */}
+                        <img src={logo}></img>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>   
                         {click ? <FontAwesomeIcon className = 'faTimes' icon={faTimes}/> : <FontAwesomeIcon className ='faBars' icon={faBars}/>}
