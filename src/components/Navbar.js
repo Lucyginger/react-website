@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Link } from "react-router-dom";
 import './Navbar.css';
 import {Button} from './Button';
-import logo from '../logo/surefast logo.png'
+import logo from '../logo/surefast logo1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
