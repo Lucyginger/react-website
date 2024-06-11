@@ -33,7 +33,7 @@ function Navbar() {
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo'>
                         {/* <i className='faEnvelope'>Hello <FontAwesomeIcon icon={faEnvelope} /></i> */}
-                        <img src={logo}></img>
+                        <div className='logo'><img src={logo}></img></div>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>   
                         {click ? <FontAwesomeIcon className = 'faTimes' icon={faTimes}/> : <FontAwesomeIcon className ='faBars' icon={faBars}/>}
