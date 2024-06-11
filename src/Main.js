@@ -4,8 +4,13 @@ import './Main.css';
 
 const Main = () =>{
     return (
+        
     <div className="main">
-        <video src={video} autoPlay loop muted></video>
+        <div className="overlay"></div>
+        <video src={video} autoPlay loop muted></video> 
+        <div className="content">
+            <h1>An International Freight Forwarding Company </h1>
+        </div>
     </div>
 
     )
